@@ -1,0 +1,31 @@
+{
+    "authors": [
+        {
+            "email": "jacopo.nuzzi@gmail.com",
+            "name": "Jacopo Andrea Nuzzi",
+            "role": "Lead"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Validate_IT": "./"
+        }
+    },
+    "description": "Validation class for Italy",
+    "include-path": [
+        "./"
+    ],
+    "license": "New BSD",
+    "name": "pear/validate_it",
+    "support": {
+        "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=Validate_IT",
+        "source": "https://github.com/pear/Validate_IT"
+    },
+    "type": "library",
+    "require": {
+        "pear/pear_exception": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    }
+}
